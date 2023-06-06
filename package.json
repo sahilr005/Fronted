@@ -41,7 +41,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build:digitalocean": "npm install --force --production=false && npm run build && npm ci",
+    "build": "npm install --force && npm run build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -62,5 +62,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "engines": {
+    "npm": "~1.0.20"
   }
 }
